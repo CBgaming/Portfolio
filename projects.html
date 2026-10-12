@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects | Carter Raymond</title>
+  <meta name="description" content="Games made by Carter Raymond, a games programming student at Anglia Ruskin University.">
+  <script>document.documentElement.classList.add("js")</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%23ffb454'/><text x='50' y='68' font-size='54' text-anchor='middle' font-family='sans-serif' font-weight='700' fill='%231a1205'>CR</text></svg>">
+</head>
+<body data-root="">
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="logo" href="index.html">Carter <span>Raymond</span></a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a class="active" href="projects.html">Projects</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+  <section class="page-head container">
+    <p class="eyebrow">Projects</p>
+    <h1>My games</h1>
+    <p>Games I've built during my degree. Open a project for the full breakdown of what I made and how.</p>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="grid two">
+
+        <a class="card reveal" href="games/first-person-character-demo.html">
+          <div class="media-ph" data-img="assets/images/first-person-demo-thumb" data-alt="First Person Character Demo screenshot">Thumbnail placeholder<small>assets/images/first-person-demo-thumb.jpg</small></div>
+          <div class="card-body">
+            <ul class="tags"><li class="tag hot">Unreal Engine</li><li class="tag">Blueprints</li><li class="tag">Solo project</li><li class="tag">Late 2025 &ndash; Early 2026</li></ul>
+            <h3>First Person Character Demo</h3>
+            <p>A first-person shooting demo built around satisfying gun handling and responsive targets.</p>
+            <span class="card-link">View project &rarr;</span>
+          </div>
+        </a>
+
+        <a class="card reveal" href="games/butterfly-effect.html">
+          <div class="media-ph" data-img="assets/images/butterfly-effect-thumb" data-alt="Butterfly Effect screenshot">Thumbnail placeholder<small>assets/images/butterfly-effect-thumb.jpg</small></div>
+          <div class="card-body">
+            <ul class="tags"><li class="tag hot">Unreal Engine</li><li class="tag">Blueprints</li><li class="tag">Team of 6</li><li class="tag">Early 2026</li></ul>
+            <h3>Butterfly Effect</h3>
+            <p><span class="ph">[Add your one-line pitch for Butterfly Effect]</span></p>
+            <span class="card-link">View project &rarr;</span>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container">
+      <h2>More on the way</h2>
+      <p class="muted">New games from future modules and game jams will appear here.</p>
+
+      <!--
+        HOW TO ADD A NEW GAME (games/game-3.html, game-4.html and game-5.html are ready-made templates):
+        1. Open games/game-3.html and replace the [placeholders] with your game's details.
+        2. Replace one of the "Coming soon" cards below with a link card, copying the
+           First Person Character Demo card above and changing the href, image name, title and text.
+           (href="games/game-3.html")
+        3. Optional: add a play link for it in js/config.js.
+      -->
+      <div class="grid three" style="margin-top:2rem">
+        <div class="card soon"><div class="media-ph">Next project</div><div class="card-body"><h3>Coming soon</h3><p>A new game from my next module or game jam.</p></div></div>
+        <div class="card soon"><div class="media-ph">Next project</div><div class="card-body"><h3>Coming soon</h3><p>A new game from my next module or game jam.</p></div></div>
+        <div class="card soon"><div class="media-ph">Next project</div><div class="card-body"><h3>Coming soon</h3><p>A new game from my next module or game jam.</p></div></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <span>&copy; <span data-year>2026</span> Carter Raymond</span>
+    <ul>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script src="js/config.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
