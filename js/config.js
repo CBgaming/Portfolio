@@ -15,9 +15,9 @@
 window.SITE = {
   links: {
     email: "",
-    linkedin: "",
+    linkedin: "www.linkedin.com/in/carter-raymond-b021bb183",
     github: "https://github.com/CBgaming",
-    itch: "",
+    itch: "https://cbgaming07.itch.io/",
     cv: "",
 
     // Where people can play or view each game (itch.io page, download, etc.)
